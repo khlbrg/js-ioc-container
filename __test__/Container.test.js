@@ -2,6 +2,7 @@ import Container from '../Container'
 
 describe('test the container', () => {
 
+
     test('create container and resolve class instance', () => {
         const container = new Container()
         const dummy = class Dummy {
