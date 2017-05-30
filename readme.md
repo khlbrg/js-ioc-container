@@ -23,3 +23,10 @@ container.get('logger') // Logger instance
 container.get('logger') // Same logger instance
 
 ```
+
+## Run test
+
+```
+npm install
+npm test
+```
