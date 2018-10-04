@@ -1,5 +1,9 @@
 # IoC Container for JavaScript
 
+This script is an example of a basic IoC container in JavaScript.
+
+Read the full article on Medium: **Creating an IoC Container with dependency injection in JavaScript** - https://medium.com/the-everyday-developer/creating-an-ioc-container-with-dependency-injection-in-javascript-9db228d34060
+
 Register classes
 
 ```javascript
