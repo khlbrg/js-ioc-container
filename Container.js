@@ -15,6 +15,10 @@ class Container {
 
     get(name) {
         const c = this._services.get(name)
+        
+        if(!c || !c.definition) {
+          return null;
+        }
 
         if(this._isClass(c.definition)) {
 
