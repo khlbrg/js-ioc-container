@@ -15,6 +15,7 @@ class Container {
 
     get(name) {
         const c = this._services.get(name)
+        if(c == undefined) throw new Error(`Container doesn't know type ${name}`);
 
         if(this._isClass(c.definition)) {
 
